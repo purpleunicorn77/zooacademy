@@ -38,7 +38,6 @@ p {
   font-family: 'Lucida Grande'; /* Font styling */
   color: #333; /* Text color */
   margin: 5px 0; /* Minimal spacing between <p> and other elements */
-  text-align: center;
 }
 
 .flex-container {
