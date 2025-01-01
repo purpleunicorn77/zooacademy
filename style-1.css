@@ -17,7 +17,7 @@ body {
   background-color: #f4f4f4; /* Optional background color */
 }
 
-h2 {
+.page-section.interaction h2 {
   position: relative; /* Keep it part of normal document flow */
   top: 10px; /* Distance from the top */
   font-family: skia; /* Font styling */
@@ -26,7 +26,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.page-section.interaction h3 {
   position: relative; /* Keep it part of normal document flow */
   font-family: 'Lucida Grande'; /* Font styling */
   color: #333; /* Text color */
@@ -34,7 +34,7 @@ h3 {
   text-align: center;
 }
 
-p {
+.page-section.interaction p {
   position: relative; /* Keep it part of normal document flow */
   font-family: 'Lucida Grande'; /* Font styling */
   color: #333; /* Text color */
@@ -42,7 +42,7 @@ p {
   text-align: center;
 }
 
-.flex-container {
+.page-section.interaction .flex-container { 
   display: flex;
   width: 400px;
   flex-direction: column;
