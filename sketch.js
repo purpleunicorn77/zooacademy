@@ -3,8 +3,8 @@ function setup() {
   let cnv = createCanvas(400, 400);
   
   // Centers the canvas with an offset to move it lower
-  let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2 + 1000; // Add 50 pixels offset
+  let x = windowWidth - width - 20; // 20px offset from the right edge
+  let y = windowHeight - height - 20; // 20px offset from the bottom edge
   cnv.position(x, y);
 }
 
@@ -40,10 +40,10 @@ function draw() {
 }
 
 function windowResized() {
-  // Re-centers the canvas when the window is resized with the same offset
+  // Repositions the canvas at the bottom-right corner when the window is resized
   resizeCanvas(400, 400);
-  let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2 + 1000; // Add the same offset
+  let x = windowWidth - width - 20; // 20px offset from the right edge
+  let y = windowHeight - height - 20; // 20px offset from the bottom edge
   let cnv = select('canvas');
   cnv.position(x, y);
 }
