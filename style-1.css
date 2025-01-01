@@ -10,7 +10,7 @@ canvas {
 body {
   display: flex;
   flex-direction: column; /* Stacks all elements vertically */
-  justify-content: flex-start; /* Align content towards the top */
+  justify-content: center; /* Align content towards the top */
   align-items: center; /* Center content horizontally */
   height: 100vh; /* Full viewport height */
   margin: 0;
