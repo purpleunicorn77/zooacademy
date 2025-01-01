@@ -4,7 +4,7 @@ function setup() {
   
   // Centers the canvas with an offset to move it lower
   let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2 + 150; // Add 50 pixels offset
+  let y = (windowHeight - height) / 2 + 1000; // Add 50 pixels offset
   cnv.position(x, y);
 }
 
@@ -43,7 +43,7 @@ function windowResized() {
   // Re-centers the canvas when the window is resized with the same offset
   resizeCanvas(400, 400);
   let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2 + 150; // Add the same offset
+  let y = (windowHeight - height) / 2 + 1000; // Add the same offset
   let cnv = select('canvas');
   cnv.position(x, y);
 }
